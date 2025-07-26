@@ -1,8 +1,8 @@
-# 💸 Expense Tracker – Java Console Application
+#  Expense Tracker – Java Console Application
 
 A simple Java-based expense tracker that allows users to manage daily expenses via the command line. Users can add, view, delete, filter, and save/load expenses using this project.
 
-## 🚀 Features
+##  Features
 
 - Add new expenses with amount, category, date, and description
 - View all saved expenses
@@ -13,17 +13,15 @@ A simple Java-based expense tracker that allows users to manage daily expenses v
 - Save expenses to a file
 - Load expenses from a file
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Java 8+
 - Java IO (`PrintWriter`, `Scanner`, `File`)
 - Java `LocalDate` from `java.time` for date handling
 - `ArrayList` for storing expenses
 
-## 📂 Project Structure
-
-
-## ✅ How It Works
+##  Project Structure
+#  How It Works
 
 1. Run the `main()` method in `Expense.java`.
 2. Use the menu to interact:
@@ -37,13 +35,13 @@ A simple Java-based expense tracker that allows users to manage daily expenses v
    - Option 8: Load expenses from a previously saved file
    - Option 9: Exit the program
 
-## 📌 Notes
+##  Notes
 
 - The app uses a global `Scanner` object to handle user input.
 - All expenses are stored in memory during runtime using an `ArrayList`.
 - When saved, expenses are stored in CSV-like format in `expenses.txt`.
 
-## 🧠 Future Improvements 
+##  Future Improvements 
 
 - GUI interface with JavaFX or Swing
 - Export to Excel or PDF
